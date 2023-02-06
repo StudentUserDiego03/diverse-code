@@ -8,7 +8,7 @@
 	.change {
 	  background-color: hsla(28,96%,55%,1.00);
 	  padding: 10px;
-	  margin: 70px;	
+	  margin: 5px;	
 	  color: powderblue;
 	}
 
@@ -19,7 +19,7 @@
 		color: powderblue;
 		font-size: 120%;
 	}
-	h1 {
+	h1, h2, h3 {
 	font-family: Arial;	
 	}
 	p {
@@ -38,18 +38,18 @@
 </head>
 
 <body style = "background-color:hsla(152,21%,38%,1.00);">
-	<h1><span id = "coolgreen">Welcome to my Coding Ground!</span></h1>
+	<h1><span id = "coolgreen" title ="A coding lab, where code is experimented.">Welcome to my Coding Ground!</span></h1>
 	
-	<table style="width: 85%; margin:6.5%">
+	<table style="width: 85%; margin:6.4%">
 	<tr>
-		<th>header</th>
-		<th>header</th>
-		<th>header</th>
+		<th>Stucture</th>
+		<th>appereance</th>
+		<th>interactivity</th>
 	</tr>
 	<tr>
-		<td>hello</td>
-		<td>hello</td>
-		<td>hello</td>
+		<td>HTML</td>
+		<td>CSS</td>
+		<td>JavaSript</td>
 	</tr>
 </table>
 	
@@ -59,31 +59,36 @@
 <div class ="change">
 	<h1>About the website:</h1>
 	<p>For now, I guess this is just a random website made for the practice of HTML, CSS, and JavaScript. Maybe i'll add just stuff I like, dont know really. Maybe a practice on how to make websites look proffesional</p>
-	<h2>:) :(  random primitive emojies on the left</h2>
+	
 	</div>
 	
-	<p><span style="color:powderblue;background-color: hsla(139,77%,43%,1.00); padding: 10px; font-size: 180%; margin: 35%"> images of things i like </span></p>
-
+	<p><span style="color:powderblue;background-color: hsla(139,77%,43%,1.00); padding: 10px; font-size: 180%; margin: 39%"> images of pandas </span></p>
+	
+	<div style = "margin: 5%">
+	<img src="images/fixedpandaimage.jpg" alt ="panda in the snow" >
+	<img src = "images/fixedfirstpandaimage.jpg" alt = "panda resting in the snow" style="margin: 7">
+	<p style = "background-color:hsla(139,77%,43%,1.00); color: powderblue;"><b>pandas</b> are one of my favorite animals. I don't know much about them outside of the fact that they seem to eat and sleep which is something I find relatable.</p>	
+	</div>
 	
 	
 <div class ="change">
-	<h1>List of things, i suppose</h1>
-	<p>I guess this is just a paragraph for know</p>
+	<h2>List of code languages used</h2>
+	<p>This paragraph showcases some of the coding languages used for creating this website.</p>
 		<ol>
-			<li>random</li>
-			<li>random</li>
-			<li>random</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>some <i>JavaScript</i></li>
 			
 </ol>	
 	</div>	
 	
+	<p><span style = "color: powderblue; background-color: hsla(139,77%,43%,1.00); font-size: 150%;padding: 10px; margin: 40%;"><a href ="https://www.w3schools.com/">Link to other site</a></span></p>
+	
+
 	
 	
 
-	
-	
-
-<button type = "button" onclick = "myfunction" style="background-color: hsla(139,77%,43%,1.00);color:powderblue;">Click to see a change in the title</button>
+<button type = "button" onclick = "myfunction" style="background-color: hsla(139,77%,43%,1.00);color:powderblue; margin: 10">Click to see a change in the title</button>
 	<script>
 		function myfunction
 		document.getElementById("coolgreen").innerHTML="you just witnessed JavaScript"
